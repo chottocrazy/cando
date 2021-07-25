@@ -62,8 +62,8 @@ $("#").load("");
 <?php else: ?>
 <?php endif; ?>
 </div>
-</div>
 <hr/>
+</div>
 
 </body>
 </html>
