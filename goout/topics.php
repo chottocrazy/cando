@@ -42,19 +42,10 @@ $("#").load("");
 <body>
 
 <div id="topics">
-
-<div id="links">
-    <h2>Website
-    <a href="http://goout.pe.hu/" target="_blank" rel="noopener noreferrer">goout.pe.hu</a>
-    </h2>
-    <br/>
-</div>
-
 <h2 id="top">
 <i id="sub" class="">Go Out</i>
 <b id="date">外へ出る</b>
 </h2>
-
 <div>
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
