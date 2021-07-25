@@ -32,9 +32,6 @@ fclose($fp);
 <title>Go Out | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
-body {background:#eee;}
-.online u,
-#links a {background:#000}
 </style>
 <script type="text/javascript">
 $(function(){
@@ -45,6 +42,14 @@ $("#").load("");
 <body>
 
 <div id="topics">
+
+<div id="links">
+    <h2>Website
+    <a href="http://goout.pe.hu/" target="_blank" rel="noopener noreferrer">goout.pe.hu</a>
+    </h2>
+    <br/>
+</div>
+
 <h2 id="top">
 <i id="sub" class="">Go Out</i>
 <b id="date">外へ出る</b>
