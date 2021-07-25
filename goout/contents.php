@@ -9,7 +9,7 @@ $title = (string)filter_input(INPUT_POST, 'title'); // $_POST['title']
 $text = (string)filter_input(INPUT_POST, 'text'); // $_POST['text']
 $link = (string)filter_input(INPUT_POST, 'link'); // $_POST['link']
 
-$fp = fopen('topics.csv', 'a+b');
+$fp = fopen('contents.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$date, $title, $text, $link]);
@@ -43,8 +43,8 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Go Out</i>
-<b id="date">外へ出る</b>
+<i id="sub" class="">Contents</i>
+<b id="date">活動内容</b>
 </h2>
 <div>
 <?php if (!empty($rows)): ?>
