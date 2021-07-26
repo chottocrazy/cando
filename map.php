@@ -29,7 +29,7 @@ $("#schedule").load("/cando/schedule.php");
   font-family:"inscrutable";
 }
 #sign  {
-  width:100%; height:23.5rem;
+  width:100%; height:23rem;
   border:none;
   overflow:hidden;
 }
@@ -37,7 +37,7 @@ $("#schedule").load("/cando/schedule.php");
   pointer-events: none;
 }
 #howtocoding, #workshop
-{overflow:auto; height:23.5rem;}
+{overflow:auto; height:23rem;}
 
 #howtocoding #introduce
 {zoom:0.75;}
