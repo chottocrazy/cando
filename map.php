@@ -57,7 +57,7 @@ hr {clear: both; border: none;}
 <div id="full">
 <div id="normal">
 <a id="link" href="/cando/goout/" target="_blank" rel="noopener noreferrer"></a>
-<iframe id="sign" src="http://goout.pe.hu/"></iframe>
+<iframe id="sign" src="http://goout.pe.hu/top.html"></iframe>
 </div>
 
 <div id="normal">
