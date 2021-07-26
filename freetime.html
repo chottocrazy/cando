@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>FREE TIME by ∧°┐</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>FREE TIME | 大 chotto crazy</title>
 <style>
 body {
-  background: #fff;
-  padding:0; margin:0;
+  padding:0;
+  margin:0;
+  background:#fff;
 }
-#info {
+@font-face {
+  font-family: "Kipper";
+  src: url(/font/Kipper.otf  );
+}
+#center {
   position: absolute;
   margin:0; padding:0;
   top: 50%; left: 50%;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width:25%;
+  height:25%;
+  transition:.5s all;
 }
-.tt {
+.title {
   color: red;
-  font-size: 4.5vw;
+  font-size: 2.5vw;
   font-weight:555;
+  text-align:center;
+  margin-left:2.5vw;
   letter-spacing: 2.5vw;
-  text-align: center;
   font-family:'Meiryo', sans-serif;
+  transition:.1s all;
   animation: jamp .333s ease infinite alternate;
+}
+.Kipper {
+  font-family: "Kipper";
+  font-size:1.5rem;
+  padding:5%;
+  
 }
 
 @keyframes jamp{
   0% {transform: translateY(2.5vh);}
   100% {transform: translateY(-2.5vh);}
 }
+
+@media screen and (max-width: 750px){
+  #center {
+    width:45%;
+    height:45%;
+  }
+  .title {
+    font-size: 4.5vw;
+  }
+}
 </style>
 </head>
 <body>
-<div id="info">
-<h1 class="tt">FREE TIME</h1>
+<div id="center">
+<h1 class="title">FREE TIME</h1>
 </div>
-
+<div class="Kipper">What kind of music do you listen to?<br/>
+Do you play instrumental, which?<br/>
+What TV program do you watch?<br/>
+Do you play sports or exercise, what?<br/>
+What kind of books or magazine do you read?<br/>
+How often do you go to cinema?<br/>
+What did you last weekend?</div>
 </body>
 </html>
