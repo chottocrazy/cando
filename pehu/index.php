@@ -111,9 +111,6 @@ body {background:#eee;}
 <li>
 <input type="radio" name="year" value="three" id="three">
 <label for="three" class="label">2019</label></li>
-<li>
-<input type="radio" name="year" value="four" id="four">
-<label for="four" class="label">2020</label></li>
 </ul>
 </div>
 
