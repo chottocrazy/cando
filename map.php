@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#howtocoding").load("/online/howtocoding.html");
+$("#schedule").load("/cando/schedule.php");
 })
 </script>
 <style type="text/css">
@@ -33,6 +33,9 @@ $("#howtocoding").load("/online/howtocoding.html");
   border:none;
   overflow:hidden;
 }
+#marquee span {
+  pointer-events: none;
+}
 #howtocoding, #workshop
 {overflow:auto; height:23rem;}
 
@@ -43,54 +46,39 @@ hr {clear: both; border: none;}
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
-<title>オンライン発表 | 大 chotto crazy</title>
+<title>Can ☆ Do | 大 chotto crazy</title>
 </head>
 <body>
-<div id="full">
-
-<div id="normal">
-  <div id="wide">
-    <p id="logo" class="center">
-    <span class="message">オンライン発表</span>
-    </p>
-    <div id="logo" class="center">
-    <b class="on">How to Coding</b>
-    </div>
-    </div>
-    <div id="wide">
-    <div id="about" class="center">
-    <p>実現したいことを実現するために制作した 大 chotto crazy 関連の <u>ウェブサイト</u> 一覧</p>
-  </div>
-  <span class="bg_fff">Chotto Crazy Programs</span>
+<div id="full" class="no_print">
+<h2 id="marquee">
+<span>We Can ☆ Do Chotto Crazy, Everytime, Everywhere</span>
+</h2>
 </div>
-<a id="link" href="/online/" target="_parent"></a>
+<div id="full">
+<div id="normal">
+<a id="link" href="/cando/goout/" target="_blank" rel="noopener noreferrer"></a>
+<iframe id="sign" src="http://goout.pe.hu/"></iframe>
 </div>
 
 <div id="normal">
   <div id="wide">
   <p id="logo" class="center">
-  <span class="message">ウェブサイトを作る</span>
+  <span class="message">限定開催</span>
   </p>
   <div id="logo" class="center">
-  <b class="on">Workshop</b>
+  <b class="on">More Info Soon</b>
   </div>
   </div>
   <div id="wide">
   <div id="about" class="center">
   <p>More Info Soon</p>
   </div>
-  <span class="bg_fff">Chotto Crazy Programs</span>
+  <span class="bg_fff">We Can ☆ Do chotto crazy</span>
   </div>
 </div>
-
 <div id="main">
-<div id="howtocoding"></div>
+<div id="schedule"></div>
 </div>
-</div>
-<hr/>
-<div class="popup" id="contactform" style="display:none;">
-<p><iframe src="http://creative-community.pe.hu/coding/submit/order/"></iframe></p>
-<span class="close" onclick="obj=document.getElementById('contactform').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
 </div>
 </body>
 </html>
