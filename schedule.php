@@ -29,7 +29,7 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<title>Can ☆ Do | 大 chotto crazy 2021</title>
+<title>FREE TIME | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
 body {background:#eee;}
@@ -46,7 +46,7 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Can ☆ Do</i>
+<i id="sub" class="">FREE TIME</i>
 <b id="date">開催日</b>
 </h2>
 
