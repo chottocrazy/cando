@@ -64,6 +64,31 @@ $("#schedule").load("/cando/schedule.php");
   transform:scale(1,10);
 }
 
+#members {
+  position: absolute;
+  margin:0; padding:0;
+  top: 50%; left: 50%;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:100%;
+  text-align:center;
+}
+#members .title {
+  font-style:italic;
+  font-size:4.5vw;
+  font-weight:500;
+  font-family: "MS Mincho", serif;
+}
+#members .login {
+  font-size:2.5vw;
+  font-style:italic;
+  padding:0.25vw 1.5vw;
+  border:0.25vw solid;
+  border-radius:5vw;
+  background:#fff;
+  font-family: 'Times New Roman';
+}
+
 #marquee span {
   pointer-events: none;
 }
@@ -120,7 +145,11 @@ hr {clear: both; border: none;}
 </div>
 </div>
 <div id="main">
-<iframe id="sign" src="/cando/membersonly.html"></iframe>
+<div id="members">
+<h1 class="title">新しい生活を集めること</h1>
+<p><i class="login">Members Only</i></p>
+</div>
+<iframe id="sign" src="http://newlifecollection.pe.hu/sign/"></iframe>
 </div>
 </div>
 </body>
