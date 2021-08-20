@@ -88,35 +88,6 @@ $("#schedule").load("/cando/schedule.php");
   background:#fff;
   font-family: 'Times New Roman';
 }
-#free {
-  position: absolute;
-  margin:0; padding:0;
-  top: 50%; left: 50%;
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width:25%;
-  height:25%;
-  transition:.5s all;
-  animation:1s linear infinite fontmotion;
-}
-.time {
-  color: red;
-  font-size: 4rem;
-  font-weight:555;
-  text-align:center;
-  margin-left:2.5vw;
-  letter-spacing: 2.5vw;
-  transition:.1s all;
-  animation: jamp .333s ease infinite alternate;
-}
-
-@keyframes jamp{
-  0% {transform: translateY(2.5vh);}
-  100% {transform: translateY(-2.5vh);}
-}
 
 
 #marquee span {
@@ -132,7 +103,6 @@ hr {clear: both; border: none;}
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
 <link rel="stylesheet" type="text/css" href="/css/top.css" />
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
-<link rel="stylesheet" href="/font/fontmotion.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 <title>FREE TIME | 大 chotto crazy</title>
@@ -145,8 +115,6 @@ hr {clear: both; border: none;}
 </div>
 <div id="full">
 <div id="normal">
-<div id="free">
-<p class="time">FREE TIME</p>
 </div>
 </div>
 <div id="normal">
