@@ -88,6 +88,36 @@ $("#schedule").load("/cando/schedule.php");
   background:#fff;
   font-family: 'Times New Roman';
 }
+#free {
+  position: absolute;
+  margin:0; padding:0;
+  top: 50%; left: 50%;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:25%;
+  height:25%;
+  transition:.5s all;
+  animation:1s linear infinite fontmotion;
+}
+.time {
+  color: red;
+  font-size: 10vw;
+  font-weight:555;
+  text-align:center;
+  margin-left:2.5vw;
+  letter-spacing: 2.5vw;
+  transition:.1s all;
+  animation: jamp .333s ease infinite alternate;
+}
+
+@keyframes jamp{
+  0% {transform: translateY(2.5vh);}
+  100% {transform: translateY(-2.5vh);}
+}
+
 
 #marquee span {
   pointer-events: none;
@@ -114,6 +144,11 @@ hr {clear: both; border: none;}
 </div>
 <div id="full">
 <div id="normal">
+<div id="free">
+<h1 class="time">FREE TIME</h1>
+</div>
+</div>
+<div id="normal">
   <div id="wide">
     <p id="logo" class="center">
     <span class="message">開催日時</span>
@@ -129,9 +164,6 @@ hr {clear: both; border: none;}
   <span class="bg_fff">We Can ☆ Do Chotto Crazy</span>
 </div>
 <a id="link" href="/cando/" target="_parent"></a>
-</div>
-<div id="normal">
-  <iframe id="sign" src="/cando/freetime.html"></iframe>
 </div>
 <div id="main">
 <div id="schedule"></div>
