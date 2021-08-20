@@ -131,7 +131,7 @@ body {background:#eee;}
 <label for="sound" class="label">聞く・音を出す</label></li>
 <li>
 <input type="radio" name="how" value="try" id="try">
-<label for="try" class="label">練習・準備する</label></li>
+<label for="try" class="label">練習・挑戦する</label></li>
 </ul>
 </div>
 <div class="reset">
