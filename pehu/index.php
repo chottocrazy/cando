@@ -119,19 +119,22 @@ body {background:#eee;}
 <ul>
 <li>
 <input type="radio" name="how" value="object" id="object">
-<label for="object" class="label">作る・壊す</label></li>
+<label for="object" class="label">作る 壊す</label></li>
 <li>
 <input type="radio" name="how" value="text" id="text">
-<label for="text" class="label">書く・読む</label></li>
+<label for="text" class="label">書く 読む 話す</label></li>
 <li>
 <input type="radio" name="how" value="image" id="image">
-<label for="image" class="label">見る・撮る</label></li>
+<label for="image" class="label">見る 撮る</label></li>
 <li>
 <input type="radio" name="how" value="sound" id="sound">
-<label for="sound" class="label">聞く・音を出す</label></li>
+<label for="sound" class="label">音を出す 聞く</label></li>
 <li>
 <input type="radio" name="how" value="try" id="try">
-<label for="try" class="label">練習・挑戦する</label></li>
+<label for="try" class="label">料理 食べる 飲む</label></li>
+<li>
+<input type="radio" name="how" value="try" id="try">
+<label for="try" class="label">練習 挑戦</label></li>
 </ul>
 </div>
 <div class="reset">
