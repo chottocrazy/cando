@@ -130,8 +130,8 @@ body {background:#eee;}
 <input type="radio" name="how" value="sound" id="sound">
 <label for="sound" class="label">音を出す 聞く</label></li>
 <li>
-<input type="radio" name="how" value="try" id="try">
-<label for="try" class="label">料理 食べる 飲む</label></li>
+<input type="radio" name="how" value="drink" id="drink">
+<label for="drink" class="label">料理 食べる 飲む</label></li>
 <li>
 <input type="radio" name="how" value="try" id="try">
 <label for="try" class="label">練習 挑戦</label></li>
