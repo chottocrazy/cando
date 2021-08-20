@@ -118,14 +118,20 @@ body {background:#eee;}
 <h2 class="search-box_label">How to</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="oneday" id="oneday">
-<label for="oneday" class="label">限定開催</label></li>
+<input type="radio" name="how" value="odject" id="odject">
+<label for="odject" class="label">作る・壊す</label></li>
 <li>
-<input type="radio" name="how" value="series" id="series">
-<label for="series" class="label">定期開催</label></li>
+<input type="radio" name="how" value="text" id="text">
+<label for="text" class="label">書く・読む</label></li>
 <li>
-<input type="radio" name="how" value="online" id="online">
-<label for="online" class="label">オンライン発表</label></li>
+<input type="radio" name="how" value="image" id="image">
+<label for="image" class="label">見る・撮る</label></li>
+<li>
+<input type="radio" name="how" value="sound" id="sound">
+<label for="sound" class="label">聞く・音を出す</label></li>
+<li>
+<input type="radio" name="how" value="try" id="try">
+<label for="try" class="label">練習・準備する</label></li>
 </ul>
 </div>
 <div class="reset">
