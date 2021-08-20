@@ -47,7 +47,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top">
 <i id="sub" class="">FREE TIME</i>
-<b id="date">開催日</b>
+<b id="date">開催日時</b>
 </h2>
 
 <div>
