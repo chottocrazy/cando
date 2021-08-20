@@ -118,8 +118,8 @@ body {background:#eee;}
 <h2 class="search-box_label">How to</h2>
 <ul>
 <li>
-<input type="radio" name="how" value="odject" id="odject">
-<label for="odject" class="label">作る・壊す</label></li>
+<input type="radio" name="how" value="object" id="object">
+<label for="object" class="label">作る・壊す</label></li>
 <li>
 <input type="radio" name="how" value="text" id="text">
 <label for="text" class="label">書く・読む</label></li>
