@@ -159,6 +159,6 @@ body {background:#eee;}
 </ul>
 </div>
 </div>
-<p id="marquee"><span>これまでにペフが実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
+<p id="marquee"><span>2017年 - 2019年 西天満のペフで開催したFREE TIMEで実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
 </body>
 </html>
