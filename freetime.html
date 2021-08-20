@@ -1,58 +1,44 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="ramdom.js"></script>
 <title>FREE TIME | 大 chotto crazy</title>
-<link rel="stylesheet" href="/font/fontmotion.css">
-<style>
-body {
-  padding:0;
-  margin:0;
-  background:#fff;
-}
-#center {
-  position: absolute;
-  margin:0; padding:0;
-  top: 50%; left: 50%;
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width:25%;
-  height:25%;
-  transition:.5s all;
-  animation:1s linear infinite fontmotion;
-}
-.title {
-  color: red;
-  font-size: 10vw;
-  font-weight:555;
-  text-align:center;
-  margin-left:2.5vw;
-  letter-spacing: 2.5vw;
-  transition:.1s all;
-  animation: jamp .333s ease infinite alternate;
-}
-
-@keyframes jamp{
-  0% {transform: translateY(2.5vh);}
-  100% {transform: translateY(-2.5vh);}
-}
-
-@media screen and (max-width: 750px){
-  #center {
-    width:45%;
-    height:45%;
-  }
+<link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<style type="text/css">
+.about_coding u,
+.about_coding #links a {background:#000;}
+.about_coding #sub {color:#000;}
+.about_coding #links a:hover {background:#fff; color:#000;}
+.about_coding #more_text {border-bottom:0.2rem solid #000;}
+.about_coding #more_text h2 {
+	color:#fff;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
 }
 </style>
+<script type="text/javascript">
+$(function(){
+$("#").load("__");
+})
+</script>
 </head>
 <body>
-<div id="center">
-<h1 class="title">FREE TIME</h1>
+<div id="introduce">
+<div id="more" class="about_coding">
+<p><u>FREE TIME</u><br/><b id="sub">Can ☆ Do</b><br/>
+<div id="more_text">
+<h2>いつでもどこでもちょっとクレイジーができるようになる/h2>
+<p>実現したいことの内容に合わせて、色んな場所で実現したいことを実現する。</p>
+</div>
+<div id="links">
+<p>More Info
+<a href="/cando/" target="_parent">chottocrazy.pe.hu/cando/</a>
+</p>
+</div>
+</div>
 </div>
 </body>
 </html>
