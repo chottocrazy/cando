@@ -5,40 +5,44 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="ramdom.js"></script>
-<title>The Symphony of Masterpieces | 大 chotto crazy</title>
+<title>The Symphony of Masterpieces | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
+<link rel="stylesheet" type="text/css" href="/css/popup.css" />
 <style type="text/css">
-.about_coding u,
-.about_coding #links a {background:#000;}
-.about_coding #sub {color:#000;}
-.about_coding #links a:hover {background:#fff; color:#000;}
-.about_coding #more_text {border-bottom:0.2rem solid #000;}
-.about_coding #more_text h2 {
-	color:#fff;
-  -webkit-text-stroke: 0.05rem #000;
-  text-stroke: 0.05rem #000;
-}
+body {background:#eee;}
+.online u,
+#links a {background:#000}
+#topics h2 {margin-top:-2.5rem;}
+hr {clear:both; border:none;}
 </style>
 <script type="text/javascript">
 $(function(){
-$("#").load("__");
+$("#about").load("about.html");
+$("#update").load("topics.php");
+$("#donation").load("/donation.html");
 })
 </script>
 </head>
 <body>
+<div id="header">
+<a href="/" target="_parent"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
+<a><b>2021</b></a>
+</div>
 <div id="introduce">
-<div id="more" class="about_coding">
-<p><u>傑作の協奏曲</u><br/><b id="sub">The Symphony of Masterpieces</b><br/>
-<div id="more_text">
+<div id="title">
+<p id="jp_title" class="center">傑作の協奏曲</p>
+<i class="namae_by">The Symphony of Masterpieces</i>
+</div>
+<div id="about_text">
 <h2>友達や友達になりたい人に、自分が思う傑作を紹介してもらい、それらを鑑賞するイベント／動画配信を行う。</h2>
-<p></p>
+<p>More Info Soon</p>
 </div>
-<div id="links">
-<p>More Info
-<a href="http://vg.pe.hu/up/tsom/" target="_parent">vg.pe.hu/up/tsom/</a>
-</p>
-</div>
+<div id="update"></div>
+<hr/>
+<div id="about"></div>
 </div>
 </div>
+<br/>
+<div id="donation"></div>
 </body>
 </html>
