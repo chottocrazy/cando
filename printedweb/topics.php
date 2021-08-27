@@ -46,8 +46,8 @@ $("#").load("");
 
 <div id="topics">
 <h2 id="top">
-<i id="sub" class="">Can ☆ Do</i>
-<b id="date">ウェブサイトを出力する</b>
+<i id="sub" class="">Topics</i>
+<b id="date">更新履歴</b>
 </h2>
 
 <div>
