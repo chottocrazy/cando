@@ -32,6 +32,14 @@ fclose($fp);
 <title>Go Out | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
+body {background:lemonchiffon;}
+.online u,
+#links a {
+    color:lemonchiffon;
+    background:lightskyblue;
+}
+#topics h2 {margin-top:-2.5rem;}
+hr {clear:both; border:none;}
 </style>
 <script type="text/javascript">
 $(function(){
