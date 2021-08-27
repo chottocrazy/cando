@@ -32,7 +32,7 @@ fclose($fp);
 <title>FREE TIME | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
-body {background:#eee;}
+body {background:#fff;}
 .online u,
 #links a {background:#000}
 </style>
