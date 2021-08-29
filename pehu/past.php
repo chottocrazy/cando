@@ -8,7 +8,7 @@ $date = (string)filter_input(INPUT_POST, 'date');
 $info = (string)filter_input(INPUT_POST, 'info');
 $more = (string)filter_input(INPUT_POST, 'more');
 
-$fp = fopen('cando.csv', 'a+b');
+$fp = fopen('past.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$how, $what, $date, $info, $more]);
