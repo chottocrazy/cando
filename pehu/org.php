@@ -33,7 +33,6 @@ fclose($fp);
 <meta name="description" content="何か する時間">
 
 <link rel="stylesheet" href="http://creative-community.pe.hu/freetime/org.css"/>
-<link rel="stylesheet" href="http://creative-community.pe.hu/freetime/ityped.css"/>
 <link rel="stylesheet" href="/font/fontmotion.css"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
