@@ -86,7 +86,7 @@ $("#").load("");
 <label for="music" class="label">音を出す 聞く</label></li>
 <li>
 <input type="radio" name="how" value="try" id="try">
-<label for="try" class="label">練習 挑戦</label></li>
+<label for="try" class="label">挑戦 実験</label></li>
 </ul>
 </div>
 <div class="reset">
