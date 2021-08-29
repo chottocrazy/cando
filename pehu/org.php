@@ -48,7 +48,7 @@ $("#").load("");
 
 .freetime:before {
   content:"FREE TIME";
-  font-size: 150%;
+  font-size: 200%;
   color: #fff;
   text-shadow: 0 0 1vw red;
   text-align: center;
