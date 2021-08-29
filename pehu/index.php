@@ -4,19 +4,16 @@ function h($str) {
 }
 $how = (string)filter_input(INPUT_POST, 'how');
 $what = (string)filter_input(INPUT_POST, 'what');
-$year = (string)filter_input(INPUT_POST, 'year');
 $date = (string)filter_input(INPUT_POST, 'date');
 $info = (string)filter_input(INPUT_POST, 'info');
-$state = (string)filter_input(INPUT_POST, 'state');
 $more = (string)filter_input(INPUT_POST, 'more');
 
 $fp = fopen('past.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
-    fputcsv($fp, [$how, $what, $year, $date, $info, $state, $more]);
+    fputcsv($fp, [$how, $what, $date, $info, $more]);
     rewind($fp);
 }
-
 flock($fp, LOCK_SH);
 while ($row = fgetcsv($fp)) {
     $rows[] = $row;
@@ -31,12 +28,13 @@ fclose($fp);
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>大 chotto crazy by Pehu</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://creative-community.pe.hu/coding/js/org.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
-$("#").load("");
+$("#org").load("org.php");
+$("#past").load("past.php");
 })
 </script>
 <link rel="stylesheet" href="/css/about.css" />
@@ -94,77 +92,7 @@ body {background:#eee;}
 <p id="message" class="center"><span class="by">creative, community space</span></p>
 <i class="on">Chotto Crazy</i>
 </div>
-<div id="about">
-</div>
-<form id="information">
-<div class="org">
-
-<div class="search-box year">
-<h2 class="search-box_label">Year</h2>
-<ul>
-<li>
-<input type="radio" name="year" value="one" id="one">
-<label for="one" class="label">2017</label></li>
-<li>
-<input type="radio" name="year" value="two" id="two">
-<label for="two" class="label">2018</label></li>
-<li>
-<input type="radio" name="year" value="three" id="three">
-<label for="three" class="label">2019</label></li>
-</ul>
-</div>
-
-<div class="search-box how">
-<h2 class="search-box_label">How to</h2>
-<ul>
-<li>
-<input type="radio" name="how" value="object" id="object">
-<label for="object" class="label">作る 壊す</label></li>
-<li>
-<input type="radio" name="how" value="text" id="text">
-<label for="text" class="label">書く 読む 話す</label></li>
-<li>
-<input type="radio" name="how" value="image" id="image">
-<label for="image" class="label">見る 撮る</label></li>
-<li>
-<input type="radio" name="how" value="sound" id="sound">
-<label for="sound" class="label">音を出す 聞く</label></li>
-<li>
-<input type="radio" name="how" value="try" id="try">
-<label for="try" class="label">練習 挑戦</label></li>
-</ul>
-</div>
-<div class="reset">
-<input type="reset" name="reset" value="RESET" class="reset-button">
-</div>
-</div>
-</form>
-<div class="list">
-<ul>
-<?php if (!empty($rows)): ?>
-<?php foreach ($rows as $row): ?>
-<li class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>">
-<p class="what"><?=h($row[1])?></p>
-<span class="date"><?=h($row[3])?></span>
-<div class="info">
-<span><?=h($row[4])?></span>
-<a class="<?=h($row[6])?>" href="<?=h($row[6])?>" target="_blank"></a>
-</div>
-</li>
-<?php endforeach; ?>
-<?php else: ?>
-<li class="list_item list_toggle" data-year="<?=h($row[2])?>" data-how="<?=h($row[0])?>">
-<p class="what">プログラム名 row[1]</p>
-<span class="date">0000.00.00 row[3]</span>
-<div class="info">
-<span>説明 row[4]</span>
-<a class="<?=h($row[6])?>" href="<?=h($row[6])?>" target="_blank"></a>
-</div>
-</li>
-<?php endif; ?>
-</ul>
-</div>
-</div>
-<p id="marquee"><span>2017年 - 2019年 西天満のペフで開催したFREE TIMEで実現したちょっとクレイジーなアイデアやチャレンジを紹介します。</span></p>
+<div id="org"></div>
+<div id="past"></div>
 </body>
 </html>
