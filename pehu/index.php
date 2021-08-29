@@ -87,11 +87,6 @@ body {background:#eee;}
 <a href="/"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span></a>
 <a><b>by Pehu</b></a>
 </div>
-<div id="programs">
-<div id="logo"><span class="we">We</span> <span class="hold">are</span> <span class="dai">the</span><br/>
-<p id="message" class="center"><span class="by">creative, community space</span></p>
-<i class="on">Chotto Crazy</i>
-</div>
 <div id="org"></div>
 <div id="past"></div>
 </body>
