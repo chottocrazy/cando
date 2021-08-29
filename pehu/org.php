@@ -85,6 +85,12 @@ $("#").load("");
 <input type="radio" name="how" value="music" id="music">
 <label for="music" class="label">音を出す 聞く</label></li>
 <li>
+<input type="radio" name="how" value="sports" id="sports">
+<label for="sports" class="label">運動する</label></li>
+<li>
+<input type="radio" name="how" value="relax" id="relax">
+<label for="relax" class="label">優雅 休憩</label></li>
+<li>
 <input type="radio" name="how" value="try" id="try">
 <label for="try" class="label">練習 挑戦</label></li>
 </ul>
