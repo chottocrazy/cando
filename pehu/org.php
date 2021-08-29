@@ -67,7 +67,6 @@ $("#").load("");
 
 <div id="cover">
 <form id="information">
-<p>何か</p>
 <div class="menu">
 <label class="freetime" for="how"></label>
 <input type="checkbox" id="how" />
