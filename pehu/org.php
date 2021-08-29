@@ -46,15 +46,18 @@ $("#").load("");
 
 <style>
 
-.content .menu:before {
+.freetime:before {
   content:"FREE TIME";
-  font-size: 5vw;
-  color: red;
+  font-size: 150%;
+  color: #fff;
+  text-shadow: 0 0 1vw red;
   text-align: center;
   position:absolute;
+  z-index:0;
   top: 50%; left: 50%;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
+  width:125%;
   animation:2.5s linear infinite fontmotion;
 }
 
