@@ -61,11 +61,11 @@ $("#").load("");
 <h2><a class="<?=h($row[4])?>" href="<?=h($row[4])?>" target="_blank" rel="noopener noreferrer">More Info</a>
 </h2>
 </div>
-</div>
+</li>
 <?php endforeach; ?>
 <?php else: ?>
 <?php endif; ?>
-</div>
+</ul>
 </div>
 
 </body>
