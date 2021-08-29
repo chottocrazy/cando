@@ -28,6 +28,7 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://creative-community.pe.hu/freetime/org.js"></script>
 <title>FREE TIME | 大 chotto crazy 2021</title>
 <link rel="stylesheet" href="http://creative-community.pe.hu/freetime/org.css"/>
 <style type="text/css">
