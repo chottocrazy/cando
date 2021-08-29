@@ -46,7 +46,7 @@ $("#").load("");
 
 <style>
 
-.content .freetime:before {
+.content #how:before {
   content:"FREE TIME";
   font-size: 5vw;
   color: red;
