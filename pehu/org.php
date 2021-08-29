@@ -49,14 +49,13 @@ $("#").load("");
 
 .content p:before {
   content:"FREE TIME";
-  font-size: 100%;
+  font-size: 75%;
   color: red;
   text-align: center;
   position:absolute;
   top: 50%; left: 50%;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
-  width:120%;
   animation:2.5s linear infinite fontmotion;
 }
 
