@@ -30,7 +30,7 @@ fclose($fp);
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="何か する時間">
+<meta name="description" content="何かする時間">
 
 <link rel="stylesheet" href="http://creative-community.pe.hu/freetime/org.css"/>
 <link rel="stylesheet" href="/font/fontmotion.css"/>
@@ -90,7 +90,6 @@ $("#").load("");
 <label for="try" class="label">練習した 挑戦した</label></li>
 </ul>
 </div>
-<p>時間</p>
 <div class="reset">
 <input type="reset" name="reset" value="全部見る" class="reset-button">
 </div>
