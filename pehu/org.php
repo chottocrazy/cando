@@ -68,26 +68,26 @@ $("#").load("");
 
 <div id="cover">
 <form id="information">
-<span>何か</span>
+<p>2017年 - 2019年<br/>何か</p>
 <div class="menu">
 <label class="freetime" for="how"></label>
 <input type="checkbox" id="how" />
 <ul class="search-box how" id="click">
 <li>
 <input type="radio" name="how" value="create" id="create">
-<label for="create" class="label">作る 壊す</label></li>
+<label for="create" class="label">作った 壊した</label></li>
 <li>
 <input type="radio" name="how" value="communication" id="communication">
-<label for="communication" class="label">書く 読む 話す</label></li>
+<label for="communication" class="label">書いた 読んだ</label></li>
 <li>
 <input type="radio" name="how" value="image" id="image">
-<label for="image" class="label">撮影する 見る</label></li>
+<label for="image" class="label">撮影した 見た</label></li>
 <li>
 <input type="radio" name="how" value="music" id="music">
-<label for="music" class="label">音を出す 聞く</label></li>
+<label for="music" class="label">音を出した 聞いた</label></li>
 <li>
 <input type="radio" name="how" value="try" id="try">
-<label for="try" class="label">挑戦 実験</label></li>
+<label for="try" class="label">挑戦した 実験した</label></li>
 </ul>
 </div>
 <div class="reset">
