@@ -68,7 +68,7 @@ $("#").load("");
 
 <div id="cover">
 <form id="information">
-<p>2017年 - 2019年<br/>何か</p>
+<p>これまでに<br/>何か</p>
 <div class="menu">
 <label class="freetime" for="how"></label>
 <input type="checkbox" id="how" />
@@ -90,6 +90,7 @@ $("#").load("");
 <label for="try" class="label">挑戦した 実験した</label></li>
 </ul>
 </div>
+<p>時間</p>
 <div class="reset">
 <input type="reset" name="reset" value="全部見る" class="reset-button">
 </div>
