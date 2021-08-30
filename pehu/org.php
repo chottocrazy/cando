@@ -66,7 +66,7 @@ $("#").load("");
 
 <body>
 
-<div id="cover">
+<div id="index">
 <form id="information">
 <p>何か</p>
 <div class="menu">
