@@ -43,6 +43,16 @@ $("#update").load("/update/cando.php");
 #freetime #introduce
 {zoom:0.9;}
 
+.random {
+  position: relative;
+}
+.random img {
+  min-width:100%;
+  min-height:100%;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
 hr {clear: both; border: none;}
 </style>
 <link rel="stylesheet" type="text/css" href="/css/map.css" />
@@ -110,8 +120,9 @@ hr {clear: both; border: none;}
 <div id="main">
 <iframe id="sign" src="http://creative-community.pe.hu/freetime/org.php"></iframe>
 </div>
-<div id="main">
+<div id="main" class="random">
 </div>
 </div>
+<script src="random.js" defer></script>
 </body>
 </html>
