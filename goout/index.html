@@ -10,8 +10,8 @@
 <link rel="stylesheet" type="text/css" href="/css/popup.css" />
 <style type="text/css">
 body {background:lemonchiffon;}
-.online u,
-#links a {
+.goout u,
+.goout a {
     color:lemonchiffon;
     background:lightskyblue;
 }
@@ -21,7 +21,6 @@ hr {clear:both; border:none;}
 $(function(){
 $("#contents").load("/update/goout.php");
 $("#donation").load("/donation.html");
-$("#about").load("about.html");
 })
 </script>
 </head>
@@ -37,12 +36,28 @@ $("#about").load("about.html");
 </div>
 <div id="about_text">
 <h2>行ったことのない場所へ行ったり、やったことのないことをやったり、知らないものごとと出会いに、外へ出る</h2>
-<p>Go Outは、慌ただしい生活の中では後回しにしてしまうようなことをする時間。</p>
-<p>忙しない日常の中ではわざわざやらないような、無駄だけど有意義なことをするために、普段の外へ出る活動です。</p>
+<p>行ったことのない場所に行って、お気に入りの場所を集めたい</p>
+<p>いろんな場所でやったことのないことをやって、できると思えることを増やしたい</p>
+</div>
+<hr/>
+<div id="topics">
+<h2 id="top" class="goout">
+<i id="sub">Let's Go Out</i>
+<b id="date">2022.1.1</b>
+</h2>
+<div class="goout">
+<div id="topics" class="online">
+<p><u>Osaka Map</u></p>
+<span id="sub">大阪市内のお気に入りの場所をコレクションするウェブサイト 公開予定</span>
+<div id="links">
+<h2><a>絶賛制作中</a>
+</h2>
+</div>
+</div>
+</div>
 </div>
 <hr/>
 <div id="contents"></div>
-<div id="about"></div>
 </div>
 </div>
 <div id="donation"></div>
