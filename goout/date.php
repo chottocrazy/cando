@@ -47,6 +47,7 @@ $("#").load("");
 <i id="sub">Go Out</i>
 <b id="date">公式作品</b>
 </h2>
+<div class="goout">
 <div id="topics" class="online">
 <span id="date">2021.1.1</span>
 <p><u>Osaka Map</u></p>
@@ -54,6 +55,7 @@ $("#").load("");
 <div id="links">
 <h2><a>絶賛制作中</a>
 </h2>
+</div>
 </div>
 </div>
 <div class="goout">
