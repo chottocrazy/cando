@@ -56,7 +56,7 @@ $("#").load("");
 </h2>
 </div>
 </div>
-<div>
+<div class="goout">
 <?php if (!empty($rows)): ?>
 <?php foreach ($rows as $row): ?>
 <div id="topics" class="online">
