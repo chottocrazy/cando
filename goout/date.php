@@ -43,7 +43,7 @@ $("#").load("");
 <body>
 
 <div id="topics">
-<h2 id="top" class="nlc">
+<h2 id="top" class="goout">
 <i id="sub">Go Out</i>
 <b id="date">公式作品</b>
 </h2>
