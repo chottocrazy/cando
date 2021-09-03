@@ -30,13 +30,15 @@ fclose($fp);
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="何かする時間">
+<meta name="description" content="FREE TIME | 何かする時間">
 
+<link rel="stylesheet" href="ityped.css"/>
+<link rel="stylesheet" href="http://creative-community.pe.hu/freetime/open.css"/>
 <link rel="stylesheet" href="http://creative-community.pe.hu/freetime/org.css"/>
 <link rel="stylesheet" href="/font/fontmotion.css"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="http://creative-community.pe.hu/freetime/ityped.js"></script>
+<script src="http://creative-community.pe.hu/freetime/org.js"></script>
 
 <script type="text/javascript">
 $(function(){
@@ -46,33 +48,20 @@ $("#").load("");
 
 <style>
 
-.freetime:before {
-  content:"FREE TIME";
-  font-size: 200%;
-  color: #fff;
-  text-shadow: 0 0 1vw red;
-  text-align: center;
-  position:absolute;
-  z-index:0;
-  top: 50%; left: 50%;
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
-  width:125%;
-  animation:2.5s linear infinite fontmotion;
-}
-
 </style>
+  
 </head>
-
 <body>
 
+<div id="cover_freetime">
+<div class="content">
+<span>何か</span>
 <div id="index">
-<form id="information">
-<p>何か</p>
-<div class="menu">
-<label class="freetime" for="how"></label>
-<input type="checkbox" id="how" />
-<ul class="search-box how" id="click">
+  <form id="information">
+  <div class="menu">
+  <label class="freetime" for="how"></label>
+  <input type="checkbox" id="how" />
+  <ul class="search-box how" id="click">
 <li>
 <input type="radio" name="how" value="create" id="create">
 <label for="create" class="label">作った 壊した</label></li>
@@ -88,12 +77,40 @@ $("#").load("");
 <li>
 <input type="radio" name="how" value="try" id="try">
 <label for="try" class="label">練習した 挑戦した</label></li>
+  </ul>
+  </div>
+  <div class="reset">
+  <input type="reset" name="reset" value="全部見る" class="reset-button">
+  </div>
+  </form>
+</div>
+</div>
+</div>
+
+<div id="open">
+<ul>
+<?php if (!empty($rows)): ?>
+<?php foreach ($rows as $row): ?>
+<li class="list_item list_toggle" data-how="<?=h($row[0])?>">
+<p class="what"><?=h($row[1])?></p>
+<span class="date"><?=h($row[2])?></span>
+<div class="info">
+<span><?=h($row[3])?></span>
+<a class="<?=h($row[4])?>" href="<?=h($row[4])?>" target="_blank"></a>
+</div>
+</li>
+<?php endforeach; ?>
+<?php else: ?>
+<li class="list_item list_toggle" data-how="<?=h($row[0])?>">
+<p class="what">プログラム名 row[1]</p>
+<span class="date">0000.00.00 row[2]</span>
+<div class="info">
+<span>説明 row[3]</span>
+<a class="<?=h($row[4])?>" href="<?=h($row[4])?>" target="_blank"></a>
+</div>
+</li>
+<?php endif; ?>
 </ul>
-</div>
-<div class="reset">
-<input type="reset" name="reset" value="全部見る" class="reset-button">
-</div>
-</form>
 </div>
 
 </body>
