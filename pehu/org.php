@@ -32,7 +32,7 @@ fclose($fp);
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="FREE TIME | 何かする時間">
 
-<link rel="stylesheet" href="ityped.css"/>
+<link rel="stylesheet" href="http://creative-community.pe.hu/freetime/ityped.css"/>
 <link rel="stylesheet" href="http://creative-community.pe.hu/freetime/open.css"/>
 <link rel="stylesheet" href="http://creative-community.pe.hu/freetime/org.css"/>
 <link rel="stylesheet" href="/font/fontmotion.css"/>
