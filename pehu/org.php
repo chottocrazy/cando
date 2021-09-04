@@ -89,7 +89,7 @@ $("#").load("");
 <label for="music" class="label">音を出した 聞いた</label></li>
 <li>
 <input type="radio" name="how" value="communication" id="communication">
-<label for="communication" class="label">書いた 読んだ</label></li>
+<label for="communication" class="label">書いた 読んだ 話した</label></li>
 <li>
 <input type="radio" name="how" value="try" id="try">
 <label for="try" class="label">練習した 挑戦した</label></li>
