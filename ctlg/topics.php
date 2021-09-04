@@ -32,7 +32,6 @@ fclose($fp);
 <title>プログラム名 | 大 chotto crazy 2021</title>
 <link rel="stylesheet" type="text/css" href="/css/programs.css" />
 <style type="text/css">
-body {background:#eee;}
 #topics h2 {margin-top:-2.5rem;}
 </style>
 <script type="text/javascript">
