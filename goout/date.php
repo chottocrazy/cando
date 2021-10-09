@@ -45,7 +45,7 @@ $("#").load("");
 <div id="topics">
 <h2 id="top" class="goout">
 <i id="sub">Go Out</i>
-<b id="date">公式作品</b>
+<b id="date">活動履歴</b>
 </h2>
 <div class="goout">
 <?php if (!empty($rows)): ?>
